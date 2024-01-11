@@ -1,4 +1,4 @@
-# Interfaces Inteligentes - ULL
+# Interfaces Inteligentes - ULL - 2023/24
 ## Prototipo - PairMatch
 ### Autores:
  - Thomas Edward Bradley
@@ -7,7 +7,7 @@
 
 ## Descripción del proyecto
 
-El trabajo desarrollado por el equipo ha sido una aplicación para las plataformas **Cardboard** y **Oculus Quest 2/Pro** del juego de encontrar las parejas o _Pair matching_. En él, el jugador debe encontrar en el menor número de intentos todas las parejas en un tablero, cada vez que se seleccionan dos elementos que no coinciden, éstos se vuelven a ocultar, mientras que si se seleccionan dos elementos iguales, se ocultan y cuentan como una combinación correcta.
+El trabajo desarrollado por el equipo ha sido una aplicación para las plataformas **Cardboard** y **Oculus Quest 2/Pro** del juego de encontrar las parejas o _Pair matching_. En él, el jugador debe encontrar en el menor número de intentos todas las parejas en un tablero, cada vez que se seleccionan dos elementos que no coinciden, éstos se ocultan de nuevo, mientras que si se seleccionan dos elementos iguales, se eliminan del tablero y cuentan como una combinación correcta.
 
 ## Cuestiones importantes para el uso
 
@@ -51,7 +51,7 @@ Mientras que no se implementó una lectura y análisis de los valores otorgados 
 
 ## Gif animado de ejecución
 
-El siguiente gif contiene una partida completa de la versión de Oculus:
+El siguiente gif contiene una partida completa de la versión de **Oculus**:
 
 ![oculus](media/gif/oculus_gameplay.gif)
 
@@ -59,4 +59,27 @@ Sin embargo es recomendable ver una versión en vídeo ya que de esta manera se 
 
 [![oculus_video](media/img/watch.png)](https://drive.google.com/file/d/1fAExC8NaBICbe7pFpNTkNIEc4dsjiB4v/view?usp=sharing)
 
+El siguiente gif contiene una partida parcial de la versión de **Cardboard**:
+
+![cardboard](media/gif/cardboard_gameplay.gif)
+
+A su vez, es recomendable ver la versión de vídeo:
+
+[![cardboard_video](media/img/watch.png)](https://drive.google.com/file/d/1d8153_pdO_vw6LxCMiGdCyFB0Dt-vst8/view?usp=sharing)
+
 ## Reparto de tareas
+
+ - Thomas Edward Bradley
+    - Desarrollo de mecánicas principales del prototipo para ambas plataformas
+    - Desarrollo de entorno en la aplicación de Cardboard
+    - Implementación de la aplicación para la plataforma Cardboard
+    - Revisión de la de presentación
+ - Jakob Guttman
+    - Desarrollo de la presentación del proyecto
+    - Revisión de código para las implementaciones del proyecto en Cardboard
+    - Revisión de código para las implementaciones del proyecto en Oculus
+ - Edwin Plasencia Hernández
+    - Desarrollo de efectos especiales del prototipo de Oculus
+    - Desarrollo de entorno en la aplicación de Oculus
+    - Implementación de la aplicación para la plataforma Oculus
+    - Desarrollo del repositorio y README
