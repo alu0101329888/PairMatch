@@ -59,7 +59,7 @@ Sin embargo es recomendable ver una versión en vídeo ya que de esta manera se 
 
 [![oculus_video](media/img/watch.png)](https://drive.google.com/file/d/1fAExC8NaBICbe7pFpNTkNIEc4dsjiB4v/view?usp=sharing)
 
-El siguiente gif contiene una partida parcial de la versión de **Cardboard**:
+El siguiente gif contiene una partida completa de la versión de **Cardboard**:
 
 ![cardboard](media/gif/cardboard_gameplay.gif)
 
