@@ -57,6 +57,6 @@ El siguiente gif contiene una partida completa de la versión de Oculus:
 
 Sin embargo es recomendable ver una versión en vídeo ya que de esta manera se aprecian los cambios de audio y efectos especiales mejor:
 
-[![oculus_video](media/img/watch.png)](media/video/oculus_gameplay.mp4)
+[![oculus_video](media/img/watch.png)](https://drive.google.com/file/d/1fAExC8NaBICbe7pFpNTkNIEc4dsjiB4v/view?usp=sharing)
 
 ## Reparto de tareas
