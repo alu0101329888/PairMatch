@@ -52,6 +52,7 @@ Mientras que no se implementó una lectura y análisis de los valores otorgados 
 ## Gif animado de ejecución
 
 El siguiente gif contiene una partida completa de la versión de Oculus:
+
 ![oculus](media/gif/oculus_gameplay.gif)
 
 Sin embargo es recomendable ver una versión en vídeo ya que de esta manera se aprecian los cambios de audio y efectos especiales mejor:
