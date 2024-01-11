@@ -32,10 +32,31 @@ Existen dos versiones de la aplicación, la versión para **Cardboard** y la ver
 
 ## Hitos de programación logrados
 
+- En este proyecto se han implementado correctamente las llamadas de eventos, donde cada bloque y botón se comunican con el _Game Manager_ para lograr la funcionalidad deseada.
+- A su vez, se han implementado ejecución de sonidos y música con AudioClips y AudioSources en los altavoces de la escena.
+- Se ha desarrollado e implementado para plataformas de _Realidad virtual_ como **Cardboard** y **Oculus Quest**
+- Se han implementado elementos y assets de la **Unity Asset Store** así como de recursos gratuitos y de __licencia libre__.
+
 ## Aspectos a destacar
 
-## Especificar si se han incluido sensores de los que se han trabajado en interfaces multimodales.
+La versión para __Cardboard__ utiliza una iluminación simple junto con un entorno básico, éste consiste en una esfera oscura con focos para iluminar los botones y bloques, de manera que se obtenga un efecto parecido al del conocido juego **Beat Saber**, donde la iluminación es tenue y establece como importante sólo los elementos principales del juego, los sonidos son aquellos utilizados en un menú común y la música es tranquila y adecuada al juego con continuidad para que mantenga coherencia con el tipo de juego que es.
+
+En la versión para las plataformas **Oculus** se tiene un entorno más detallado, siendo éste una pequeña pradera con flores, rocas, árboles y casas además de un cielo iluminado con nubes e islas flotantes que rota con el tiempo para simular el movimiento de las nubes. A su vez, la iluminación de la escena es direccional para simular un sol y aunque se mantienen los focos para iluminar los botones, no son necesarios en el final de la escena. Sin embargo, la escena es dinámica y evoluciona conforme el jugador avanza en el juego, primero se establece una niebla oscura y espesa en torno al jugador junto con el oscurecimiento del cielo (por ello mantenemos los focos de los bloques y botón), a medida que el jugador encuentra parejas, la niebla se va disipando dejando ver más parte de la escena, hasta que cuando se encuentran todas, se elimina por completo la niebla y se ilumina el cielo.
+
+Durante esta evolución, también cabe destacar el cambio del audio, los sonidos de los bloques y selección son ligeramente diferentes pero mantienen la misma esencia que la versión de **Cardboard**. A diferencia de la versión de **Cardboard** sin embargo, el sonido de selección correcta se cambió para una mayor coherencia e inmersión y la música de fondo también, se usan además _AudioMixers_ para lograr que el audio de la música tenga un __Highpass__ variable conforme el jugador encuentra parejas, de manera que la canción obtenga un mayor rango y mejores bajos a medida que el jugador va ganando hasta que llega al final de la partida y se escucha la canción en su mayor rango.
+
+## Sensores
+
+Mientras que no se implementó una lectura y análisis de los valores otorgados por los sensores de los dispositivos de manera directa como leer el giroscopio o el accelerómetro, sí que son utilizados por la aplicación. En la versión de **Cardboard**, el módulo de realidad virtual realiza los cálculos y lecturas por nosotros y en la versión de **Oculus**, además de una implementación similar a la de Cardboard, se añade un módulo de interacción por rayos donde se coge la orientación y posición de los mandos/controladores y se castea un **Ray** para interactuar con los elementos de la escena.
 
 ## Gif animado de ejecución
+
+El siguiente gif contiene una partida completa de la versión de Oculus:
+![oculus](media/gif/oculus_gameplay.gif)
+
+Sin embargo es recomendable ver una versión en vídeo ya que de esta manera se aprecian los cambios de audio y efectos especiales mejor:
+
+
+
 
 ## Reparto de tareas
