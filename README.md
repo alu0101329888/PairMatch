@@ -7,6 +7,8 @@
 
 ## Descripción del proyecto
 
+En el repositorio asignado y la entrega se 
+
 Cuestiones importantes para el uso
 
 Hitos de programación logrados relacionándolos con los contenidos que se han impartido
